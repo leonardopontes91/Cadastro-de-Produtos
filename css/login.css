@@ -1,0 +1,75 @@
+/*
+    TAG (button, body, a, p)
+    Classe (.titulo .grupo)
+    Id (#btn-entrar)
+    Sletor (Tujo junto e misturado)
+*/
+.caixa-login{
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+}
+
+.titulo-login {
+    text-align: center;
+    color: #415a77;
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.grupo {
+    margin-top: 15px;
+}
+
+label {
+    font-size: 14px;
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 8px;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+
+#btn-entrar {
+    margin-top: 10px;
+    background-color: #415a77;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+#btn-entrar:hover {
+    background-color: #778da9;
+    cursor: pointer;
+}
+
+.esqueci-minha-senha a {
+    text-decoration: none;
+    color: #415a77;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.esqueci-minha-senha {
+    text-align: right;
+    font-style: italic;
+    margin-top: 3px;
+}
+
+#loading{
+    display: none;
+}
+
+body{
+    background-color: #90e0ef;
+}
+
+.label{
+    font-weight: bold;
+}

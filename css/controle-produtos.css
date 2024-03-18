@@ -1,0 +1,10 @@
+/* Aqui estou fazendo um override ou uma sobrescrita de código no css do bootstrap */
+.modal-dialog {
+    max-width: 1200px;
+
+}
+
+body{
+    background-color: #90e0ef;
+}
+
